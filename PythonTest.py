@@ -14,6 +14,7 @@ def turnSingleDigit(n):
 print("Type exit to stop")
 number = ""
 
+# Keeps asking the user to input numbers until they wish to exit
 while(number != "exit"):
     number = input("Enter number to reduce to a single digit: ");
     print(turnSingleDigit(int(number)));
